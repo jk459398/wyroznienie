@@ -13,12 +13,13 @@ body {
 }
 .container {
     width: 100%; 
+    max-width: 100vw;
     margin: 0 auto; 
     background-color: 	#F5FFFA; 
     padding: 20px;
     border-radius: 15px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    overflow-x: auto;
+    overflow: hidden;
 }
 
 h1 {
@@ -36,7 +37,7 @@ table.species-table {
     border-collapse: collapse; 
     border: 3px solid #4CAF50; 
     border-radius: 10px; 
-    table-layout: fixed;
+    table-layout: auto;
 }
 
 th {
@@ -46,6 +47,7 @@ th {
     padding: 15px;
     font-size: 1.2em;
     border: 3px solid #4CAF50; 
+    min-width: 150px;
 }
 
 td {
@@ -54,6 +56,7 @@ td {
     border: 3px solid #ddd;   
     text-align: center;
     font-size: 1.1em;
+    min-width: 150px;
 }
 
 .bionano-label {
