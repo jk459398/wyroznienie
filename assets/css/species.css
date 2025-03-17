@@ -96,6 +96,7 @@ h2 {
     margin-top: 10px;
     border: 3px solid black; 
     background-color: transparent; 
+    table-layout: fixed;
 }
 
 .resources-table th,
@@ -120,6 +121,12 @@ h2 {
     background-color: transparent; 
 }
 
+@media screen and (max-width: 768px) {
+    .resources-table th,
+    .resources-table td {
+        font-size: 12px; 
+    }
+}
 .markdown-content {
     font-size: 16px;
     line-height: 1.6;
