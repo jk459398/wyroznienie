@@ -25,7 +25,6 @@ title: Genome Ark - Species
           <th>Scientific Name</th>
           <th>Common Name</th>
           <th>Genome Size</th>
-          <th>Project</th>
           <th>Family</th>
           <th>Order</th>
           <th>Sequenced Resources</th>
@@ -53,7 +52,6 @@ title: Genome Ark - Species
             <td>{{ species.name }}</td>
             <td><em>{{ species.common_name }}</em></td>
             <td>{{ species.genome_size | number_with_delimiter }}</td>
-            <td>{{ species.project | join: ", " }}</td>
             <td>{{ species.family.name }}</td> 
             <td>{{ species.order.name }}</td> 
             <td>{{ species.samples | size }}</td> 

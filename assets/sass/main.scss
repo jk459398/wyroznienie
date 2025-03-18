@@ -22,12 +22,24 @@ body {
 }
 
 .container {
+<<<<<<< HEAD:assets/sass/main.scss
     width: 80%;
     margin: 0 auto;
     background-color: $secondary-color;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+=======
+    width: 100%; 
+    max-width: 100vw;
+    margin: 0 auto; 
+    background-color: 	#F5FFFA; 
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    max-width: 1800px;
+>>>>>>> aab1d72ee27bc4de2cdf2fcbd5508d9c746c6f68:assets/css/main.css
 }
 
 h1 {
@@ -41,18 +53,27 @@ h1 {
 
 table.species-table {
     width: 100%;
+<<<<<<< HEAD:assets/sass/main.scss
     margin-top: 30px;
     border-collapse: collapse;
     border: 3px solid $primary-color;
     border-radius: 10px;
+=======
+    margin: 30px auto;
+    border-collapse: collapse; 
+    border: 3px solid #4CAF50; 
+    border-radius: 10px; 
+    table-layout: auto;
+>>>>>>> aab1d72ee27bc4de2cdf2fcbd5508d9c746c6f68:assets/css/main.css
 }
 
 th {
     background-color: $primary-color;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 8px;
     font-size: 1.2em;
+<<<<<<< HEAD:assets/sass/main.scss
     border: 3px solid $primary-color;
 }
 
@@ -60,8 +81,19 @@ td {
     background-color: $secondary-color;
     padding: 15px;
     border: 3px solid #ddd;
+=======
+    border: 3px solid #4CAF50; 
+    min-width: 130px;
+}
+
+td {
+    background-color: 	#F5FFFA; 
+    padding: 8px;
+    border: 3px solid #ddd;   
+>>>>>>> aab1d72ee27bc4de2cdf2fcbd5508d9c746c6f68:assets/css/main.css
     text-align: center;
     font-size: 1.1em;
+    min-width: 130px;
 }
 
 .bionano-label {
