@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEFA;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #e6f7f7;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    max-height: 220px; 
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #5295f9; 
+    color: white; 
+    transform: scale(1.1); 
+}
+
+.sidebar ul li a:focus {
+    outline: none; 
+    box-shadow: 0 0 5px 2px rgba(56, 121, 242, 0.5); 
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #000;
+    padding-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #e6f7f7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.taxonomy-box {
+    padding: 15px;
+    background: #e6f7f7;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resources-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 3px solid black; 
+    background-color: transparent; 
+}
+
+.resources-table th,
+.resources-table td {
+    background: transparent; 
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.resources-table thead {
+    background: transparent;
+    font-weight: bold;
+    color: black;
+}
+
+.resources-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.resources-table tr:nth-child(odd) {
+    background-color: transparent; 
+}
+
+.markdown-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.image-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-attribution {
+    font-size: 12px;
+    color: #666;
+}
+
+.social-links {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.social-links a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center; 
+    margin-top: 40px;
+    font-size: 1em;
+    color: #555;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    padding-left: 220px; 
+}
+
