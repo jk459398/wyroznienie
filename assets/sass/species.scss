@@ -8,6 +8,7 @@ $box-shadow-color: rgba(0, 0, 0, 0.1);
 $header-color: #333;
 $table-border-color: #4CAF50;
 
+.species-page {
 body {
     font-family: Arial, sans-serif;
     background-color: $background-color;
@@ -168,4 +169,5 @@ footer {
     background-color: $header-color;
     padding: 15px;
     border-radius: 10px;
+}
 }
